@@ -1,0 +1,121 @@
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  border: 1px solid #e2e8f0;
+}
+
+.pagination-info {
+  color: #64748b;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.pagination-controls {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.pagination-btn {
+  background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(59, 130, 246, 0.3);
+}
+
+.pagination-btn:hover:not(:disabled) {
+  background: linear-gradient(135deg, #1d4ed8 0%, #1e40af 100%);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(59, 130, 246, 0.4);
+}
+
+.pagination-btn:disabled {
+  background: #e2e8f0;
+  color: #94a3b8;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+.pagination-pages {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  margin: 0 1rem;
+}
+
+.pagination-page {
+  background: white;
+  color: #64748b;
+  border: 1px solid #e2e8f0;
+  padding: 0.5rem 0.75rem;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  min-width: 2.5rem;
+  text-align: center;
+}
+
+.pagination-page:hover:not(:disabled) {
+  background: #f1f5f9;
+  border-color: #3b82f6;
+  color: #3b82f6;
+}
+
+.pagination-page.active {
+  background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
+  color: white;
+  border-color: #1d4ed8;
+  box-shadow: 0 2px 4px rgba(59, 130, 246, 0.3);
+}
+
+.pagination-page.ellipsis {
+  background: transparent;
+  border: none;
+  cursor: default;
+  color: #94a3b8;
+}
+
+.pagination-page.ellipsis:hover {
+  background: transparent;
+  border: none;
+  color: #94a3b8;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .pagination {
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+  }
+  
+  .pagination-controls {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .pagination-pages {
+    margin: 0.5rem 0;
+  }
+  
+  .pagination-page {
+    min-width: 2rem;
+    padding: 0.4rem 0.6rem;
+    font-size: 0.8rem;
+  }
+}

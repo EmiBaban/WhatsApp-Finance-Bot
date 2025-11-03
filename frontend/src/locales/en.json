@@ -1,0 +1,78 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "retry": "Try again",
+    "apply": "Apply",
+    "reset": "Reset",
+    "previous": "Previous",
+    "next": "Next",
+    "page": "Page",
+    "of": "of",
+    "results": "results",
+    "showing": "Showing",
+    "no_data": "No data available",
+    "currency": "RON"
+  },
+  "navigation": {
+    "home": "🏠 Home",
+    "accounts": "💳 Accounts", 
+    "transactions": "📊 Transactions",
+    "app_title": "🏦 WappChatBot"
+  },
+  "home": {
+    "title": "Dashboard",
+    "subtitle": "Financial management control panel",
+    "total_balance": "Total Balance",
+    "total_transactions": "Total Transactions",
+    "recent_transactions": "Recent Transactions",
+    "quick_actions": "Quick Actions",
+    "view_accounts": "View Accounts",
+    "view_transactions": "View Transactions",
+    "add_transaction": "Add Transaction"
+  },
+  "accounts": {
+    "title": "Accounts",
+    "subtitle": "Bank account management",
+    "total_balance": "Total Balance",
+    "bank": "Bank",
+    "company": "Company",
+    "iban": "IBAN",
+    "balance": "Balance",
+    "no_accounts": "No accounts found in database."
+  },
+  "transactions": {
+    "title": "Transactions",
+    "subtitle": "Transaction history and filtering",
+    "filters": "🔍 Filters",
+    "account": "Account:",
+    "all_accounts": "All accounts",
+    "start_date": "Start Date:",
+    "end_date": "End Date:",
+    "limit": "Limit:",
+    "apply_filters": "🔍 Apply Filters",
+    "reset_filters": "🔄 Reset",
+    "active_filters": "Active filters:",
+    "transactions_list": "Transactions List",
+    "amount": "Amount",
+    "currency": "Currency",
+    "account": "Account",
+    "date": "Date",
+    "description": "Description",
+    "no_transactions": "No transactions match the selected filters.",
+    "positive_amount": "Income",
+    "negative_amount": "Payment"
+  },
+  "filters": {
+    "start_date_placeholder": "Select start date",
+    "end_date_placeholder": "Select end date"
+  },
+  "pagination": {
+    "previous": "← Previous",
+    "next": "Next →",
+    "page": "Page",
+    "showing": "Showing",
+    "of": "of",
+    "results": "results"
+  }
+}

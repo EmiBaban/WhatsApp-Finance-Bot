@@ -1,0 +1,78 @@
+{
+  "common": {
+    "loading": "Se încarcă...",
+    "error": "Eroare",
+    "retry": "Încearcă din nou",
+    "apply": "Aplică",
+    "reset": "Resetează",
+    "previous": "Anterior",
+    "next": "Următor",
+    "page": "Pagina",
+    "of": "din",
+    "results": "rezultate",
+    "showing": "Afișez",
+    "no_data": "Nu există date disponibile",
+    "currency": "RON"
+  },
+  "navigation": {
+    "home": "🏠 Acasă",
+    "accounts": "💳 Conturi", 
+    "transactions": "📊 Tranzacții",
+    "app_title": "🏦 WappChatBot"
+  },
+  "home": {
+    "title": "Dashboard",
+    "subtitle": "Panou de control pentru gestionarea financiară",
+    "total_balance": "Sold Total",
+    "total_transactions": "Tranzacții Totale",
+    "recent_transactions": "Tranzacții Recente",
+    "quick_actions": "Acțiuni Rapide",
+    "view_accounts": "Vezi Conturi",
+    "view_transactions": "Vezi Tranzacții",
+    "add_transaction": "Adaugă Tranzacție"
+  },
+  "accounts": {
+    "title": "Conturi",
+    "subtitle": "Gestionarea conturilor bancare",
+    "total_balance": "Sold Total",
+    "bank": "Bancă",
+    "company": "Companie",
+    "iban": "IBAN",
+    "balance": "Sold",
+    "no_accounts": "Nu există conturi în baza de date."
+  },
+  "transactions": {
+    "title": "Tranzacții",
+    "subtitle": "Istoric și filtrare tranzacții",
+    "filters": "🔍 Filtre",
+    "account": "Cont:",
+    "all_accounts": "Toate conturile",
+    "start_date": "Data început:",
+    "end_date": "Data sfârșit:",
+    "limit": "Limită:",
+    "apply_filters": "🔍 Aplică Filtre",
+    "reset_filters": "🔄 Resetează",
+    "active_filters": "Filtre active:",
+    "transactions_list": "Lista Tranzacțiilor",
+    "amount": "Sumă",
+    "currency": "Monedă",
+    "account": "Cont",
+    "date": "Data",
+    "description": "Descriere",
+    "no_transactions": "Nu există tranzacții care să corespundă filtrelor selectate.",
+    "positive_amount": "Încasare",
+    "negative_amount": "Plată"
+  },
+  "filters": {
+    "start_date_placeholder": "Selectează data început",
+    "end_date_placeholder": "Selectează data sfârșit"
+  },
+  "pagination": {
+    "previous": "← Anterior",
+    "next": "Următor →",
+    "page": "Pagina",
+    "showing": "Afișez",
+    "of": "din",
+    "results": "rezultate"
+  }
+}

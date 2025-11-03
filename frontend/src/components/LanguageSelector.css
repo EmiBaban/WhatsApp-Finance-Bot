@@ -1,0 +1,56 @@
+.language-selector {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  margin-left: 1rem;
+  flex-shrink: 0;
+  z-index: 10;
+}
+
+.language-btn {
+  background: rgba(255, 255, 255, 0.1);
+  color: #cbd5e1;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 0.5rem 0.75rem;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+  min-width: 3rem;
+  text-align: center;
+  display: inline-block;
+}
+
+.language-btn:hover {
+  background: rgba(255, 255, 255, 0.2);
+  color: #f1f5f9;
+  border-color: rgba(255, 255, 255, 0.3);
+  transform: translateY(-1px);
+}
+
+.language-btn.active {
+  background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
+  color: white;
+  border-color: #1e40af;
+  box-shadow: 0 2px 8px rgba(59, 130, 246, 0.3);
+}
+
+.language-btn.active:hover {
+  background: linear-gradient(135deg, #1d4ed8 0%, #1e40af 100%);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.4);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .language-selector {
+    gap: 0.25rem;
+  }
+  
+  .language-btn {
+    padding: 0.4rem 0.6rem;
+    font-size: 0.8rem;
+  }
+}

@@ -1,0 +1,69 @@
+# Environment / secrets
+.env
+.env.local
+.env.*
+!.env.example
+
+# Python bytecode / caches
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Packaging / build
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Logs, coverage, databases
+*.log
+.coverage
+coverage.xml
+htmlcov/
+*.sqlite3
+*.db
+
+# Frontend / Node
+node_modules/
+frontend/node_modules/
+dist/
+.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# IDE / editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Misc
+.sass-cache/
+*.bak
+
+# Keep explicit previously ignored pyc entries if you want (not necessary with patterns above)
+# __pycache__/doc_processing.cpython-312.pyc
+# __pycache__/prompts.cpython-312.pyc
+# __pycache__/reference_data.cpython-312.pyc
+# __pycache__/reply_whatsapp.cpython-312.pyc
+# services/__pycache__/db_utils.cpython-312.pyc
+# services/__pycache__/pending.cpython-312.pyc
